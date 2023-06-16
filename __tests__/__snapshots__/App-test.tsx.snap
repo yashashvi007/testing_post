@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View>
+  <View>
+    <View>
+      <Text>
+        Component
+      </Text>
+      <Text>
+        this is data
+      </Text>
+    </View>
+    <TextInput
+      onChangeText={[Function]}
+      style={
+        {
+          "borderWidth": 1,
+          "height": 40,
+          "margin": 12,
+          "padding": 10,
+        }
+      }
+      testID="searchbar"
+      value=""
+    />
+    <RCTScrollView
+      data={[]}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={[]}
+      testID="list"
+      viewabilityConfigCallbackPairs={[]}
+    >
+      <View />
+    </RCTScrollView>
+  </View>
+</View>
+`;
